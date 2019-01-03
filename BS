@@ -1,0 +1,18 @@
+# BS
+package intership2.dao;
+public class BS{
+public String Storeid;
+public String Brandid;
+public String GetterStoreid() {
+	return this.Storeid;
+}
+public void SetterStoreid(String Storeid) {
+	this.Storeid=Storeid;
+}
+public String GetterBrandid() {
+	return this.Brandid;
+}
+public void SetterBrandid(String Brandid) {
+	this.Brandid=Brandid;
+}
+}
