@@ -1,0 +1,12 @@
+package intership2.dao;
+import java.lang.Exception;
+import java.util.ArrayList;
+
+import intership2.dao.BS;
+public interface BSDAO {
+	public boolean addBS(BS bs) throws Exception; 
+	public boolean delBS(String sql) throws Exception; 
+	public boolean updateBS(String sql) throws Exception;
+	public ArrayList<BS> getBS(String sql) throws Exception;
+
+}
